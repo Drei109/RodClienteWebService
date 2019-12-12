@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/material-icons.css">
+    <link rel="stylesheet" href="styles/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="styles/mdl-complement.css">
+    <link rel="stylesheet" href="styles/custom.css">
+    <title></title>
+</head>
+
+<body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">CLIENTE WEB SERVICE</span>
+            </div>
+            <!-- Tabs -->
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Productos</a>
+                <a href="#scroll-tab-2" class="mdl-layout__tab">Categorías</a>
+            </div>
+        </header>
+
+        <main class="mdl-layout__content">
+            <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+                <div class="page-content" style="background-color: #f4f4f4;">
+
+                    <div class="mdl-grid">
+                        <div class="mdl-layout-spacer"></div>
+                        <div class="mdl-cell mdl-cell--8-col demo-card-wide mdl-card mdl-shadow--2dp min-height-0">
+                            <div class="mdl-card__title">
+                                <div class="mdl-card__title-text" style="width: 100%;">
+                                    <div style="width: 100%;">
+
+                                        <div class=" mdl-textfield mdl-js-textfield " style="width: 100%;">
+                                            <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                                                <i class="material-icons">search</i>
+                                            </label>
+                                            <input class="mdl-textfield__input search-input" type="text"
+                                                id="searchProductos">
+                                        </div>
+
+
+                                        <br>
+                                        <div class="center-content">
+                                            <label class="mdl-radio mdl-js-radio" for="option1">
+                                                <input type="radio" id="option1" name="opcionProductos" value="nombre"
+                                                    class="mdl-radio__button" checked>
+                                                <span class="mdl-radio__label dre-radio">Nombre</span>
+                                            </label>
+                                            <label class="mdl-radio mdl-js-radio" for="option2">
+                                                <input type="radio" id="option2" name="opcionProductos" value="id"
+                                                    class="mdl-radio__button" checked>
+                                                <span class="mdl-radio__label">Id</span>
+                                            </label>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mdl-layout-spacer">
+                        </div>
+
+
+                    </div>
+
+                    <div id="productosList">
+                    </div>
+            </section>
+            <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/mdl-complement.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

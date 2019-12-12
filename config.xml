@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.rod.cliente.uno"
+    versionCode = "10"
+    version     = "1.0.0">
+
+    <name>ROD Cliente 1</name>
+    <description>Descp Rod Cliente</description>
+    <access origin="*" />
+
+</widget>

@@ -8,5 +8,6 @@
     <name>ROD Cliente 1</name>
     <description>Descp Rod Cliente</description>
     <access origin="*" />
+    <access uri="*" subdomains="true" />
 
 </widget>

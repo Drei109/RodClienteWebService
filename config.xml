@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
+    xmlns:android   = "http://schemas.android.com/apk/res/android"
     id          = "com.rod.cliente.uno"
     versionCode = "10"
     version     = "1.0.0">
 
     <name>ROD Cliente 1</name>
     <description>Descp Rod Cliente</description>
+
+    <plugin name="cordova-plugin-whitelist" spec="1.1.0" />
+    
     <access origin="*" />
     <access uri="*" subdomains="true" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
 
 </widget>

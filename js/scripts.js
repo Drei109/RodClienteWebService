@@ -150,8 +150,7 @@ function ListarCategorias(tipo, valor) {
 }
 
 
-ListarProductos();
-ListarCategorias();
+
 
 var searchProductos = document.getElementById("searchProductos");
 searchProductos.addEventListener("keyup", function (event) {
@@ -171,4 +170,9 @@ searchCategorias.addEventListener("keyup", function (event) {
         event.preventDefault();
         ListarCategorias(tipo, valor);
     }
+});
+
+$( document ).ready(function() {
+    ListarProductos();
+    ListarCategorias();
 });

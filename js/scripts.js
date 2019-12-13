@@ -1,6 +1,9 @@
 //var direccionWebService = "http://localhost:61078/";
 //var direccionWebService = "http://192.168.1.41/WS_Server_Ventas_MVC_Rodriguez/";
-var direccionWebService = "http://192.168.0.25/WS_Server_Ventas_MVC_Rodriguez/";
+//var direccionWebService = "http://192.168.0.25/WS_Server_Ventas_MVC_Rodriguez/";
+
+var direccionWebService = "http://192.168.1.37/WS_Server_Ventas_MVC_Rodriguez/";
+
 var direccionWebServiceMetodos = direccionWebService + "WebServices/WebServiceVentas.asmx/";
 
 function ListarProductos(tipo, valor) {
@@ -140,6 +143,7 @@ function ListarCategorias(tipo, valor) {
                                                 ID : ${categoriaText}
                                             </div>                                            
                                         </div>
+                                        <div class="mdl-layout-spacer"></div>
                                     </div>`
 
                 productosList.appendChild(cardDiv);
@@ -172,7 +176,7 @@ searchCategorias.addEventListener("keyup", function (event) {
     }
 });
 
-$( document ).ready(function() {
+$(document).ready(function () {
     ListarProductos();
     ListarCategorias();
 });

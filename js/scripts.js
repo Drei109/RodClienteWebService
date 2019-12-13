@@ -1,5 +1,6 @@
 //var direccionWebService = "http://localhost:61078/";
-var direccionWebService = "http://192.168.1.41/WS_Server_Ventas_MVC_Rodriguez/";
+//var direccionWebService = "http://192.168.1.41/WS_Server_Ventas_MVC_Rodriguez/";
+var direccionWebService = "http://192.168.0.25/WS_Server_Ventas_MVC_Rodriguez/";
 var direccionWebServiceMetodos = direccionWebService + "WebServices/WebServiceVentas.asmx/";
 
 function ListarProductos(tipo, valor) {
